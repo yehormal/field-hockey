@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="icomoon-v1.0/style.css">
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Хоккей на траве</title>
+</head>
+<body>
+
+    <div class="nav none">
+        <a href="#" id="navHeader" class="nav__link">Главная</a>
+        <a href="#" onclick="slowNavScroll('#social')" id="navSocial" class="nav__link">Связь</a>
+        <a href="#" onclick="slowNavScroll('#content1')" id="navContent" class="nav__link">Инфо</a>
+        <a href="#" onclick="slowNavScroll('#video')" id="navVideo" class="nav__link">Видео</a>
+    </div>
+
+    <div id="perspective" class="perspectiveNotActive">
+        <div id="section">
+
+            <!-- 
+                HEADER
+            -->
+
+            <div class="header" id="header">
+                <div id="headerMenu" class="header__menu">
+                    <div class="header__icon">
+                        <a href="#" class="header__btn">
+                            <span class="header__btn_item"></span>
+                        </a>
+                    </div>
+                    <a href="#" class="header__text">Menu</a>
+                </div>
+                <div class="header__nav">
+                    <a href="#" class="header__link header__link_active">Главная</a>
+                    <a href="#" onclick="slowScroll('#social')" class="header__link">Связь</a>
+                    <a href="#" onclick="slowScroll('#content1')" class="header__link">Инфо</a>
+                    <a href="#" onclick="slowScroll('#video')" class="header__link">Видео</a>
+                </div>
+                <div class="header__space">
+
+                </div>
+            </div>
+
+            <!-- 
+                INTRO
+            -->
+
+            <div class="intro">
+                <div class="container">
+                    <div class="intro__inner">
+                        <img src="assets/img/logo.png" alt="" class="intro__logo">
+                        <a href="#" onclick="slowScroll('#content1')" class="intro_btn">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="intro__nav">
+                    <span class="intro__line"></span>
+                    <div class="intro__num">01</div>
+                    <a href="#" onclick="slowScroll('#content1')"><span class="intro__link"></span></a>
+                    <a href="#" onclick="slowScroll('#content2')"><span class="intro__link"></span></a>
+                    <a href="#" onclick="slowScroll('#content3')"><span class="intro__link"></span></a>
+                    <a href="#" onclick="slowScroll('#content4')"><span class="intro__link"></span></a>
+                </div>
+                <div class="intro__picture">
+                    <img class="intro__ball" src="assets/img/ball.gif">
+                </div>
+            </div>
+
+            <!-- 
+                SOCIAL
+            -->
+
+            <div class="social" id="social">
+                <div class="container">
+                    <div class="social__inner">
+                        <div class="social__name">Социальные сети</div>
+                        <div class="social__icons">
+                            <a href="https://t.me/yehormalovanyi" class="social__link"><span class="icon-telegram icon"></span></a>
+                            <a href="https://www.instagram.com/fihockey/" class="social__link"><span class="icon-instagram icon"></span></a>
+                            <a href="https://www.youtube.com/channel/UCr94q5r1qUrwg2Z6IJB3tuw" class="social__link"><span class="icon-youtube icon"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
+                CONTENT 1
+            -->
+
+            <div class="content content_grey" id="content1">
+                <div class="container content__container">
+                    <div class="content__inner content__inner_grey">
+                        <div class="content__content content__content_grey">
+                            <div class="content__title content__title_grey">Игра</div>
+                            <div class="content__text content__text_grey">Хоккей на траве — командный вид спорта 
+                                (по одиннадцать человек в каждой команде), в который играют две команды, используя 
+                                клюшку и мяч. Организацией соревнований занимается Международная федерация хоккея 
+                                на траве ...</div>
+                            <a href="#" class="content__btn content__btn_grey" id="contentBtn1">Узнать больше</a>
+                        </div>
+                        <div class="content__picture">
+                            <img src="assets/img/img1.jpg" alt="" class="content__img">
+                        </div>
+                        <img src="assets/img/player1.png" alt="" class="content__player content__player_grey">
+                        <div class="content__name content__name_grey">Game</div>
+                        <a href="#" onclick="slowScroll('#content2')" class="content__num content__num_grey content__num_1">01.</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
+                CONTENT 2
+            -->
+
+            <div class="content content_white" id="content2">
+                <div class="container content__container">
+                    <div class="content__inner content__inner_white">
+                        <div class="content__picture">
+                            <img src="assets/img/img2.jpg" alt="" class="content__img">
+                        </div>
+                        <img src="assets/img/player2.png" alt="" class="content__player content__player_white">
+                        <div class="content__name content__name_white">Rules</div>
+                        <a href="#" onclick="slowScroll('#content3')" class="content__num content__num_white">02.</a>
+                        <div class="content__content content__content_white">
+                            <div class="content__title content__title_white">Правила</div>
+                            <div class="content__text content__text_white">Цель игры – забросить как можно больше мячей в 
+                                ворота соперника. Касаться мяча руками или ногами запрещено, делать это может только 
+                                вратарь. В каждой команде по 11 игроков. Игра состоит из четырёх таймов, каждый из 
+                                которых длится по 10 минут ...</div>
+                            <a href="#" class="content__btn content__btn_white" id="contentBtn2">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
+                VIDEO
+            -->
+
+            <div class="video" id="video">
+                <div class="container">
+                    <div class="video__inner">
+                        <div class="video__title">Хоккейные элементы</div>
+                        <div class="video__text">Внизу вам представлены 3 короткие видеоролики обучающие 
+                            элементам игры в хоккей на траве.</div>
+                        <div class="video__features">
+                            <div class="video__feature">
+                                <iframe class="video__video" src="https://www.youtube.com/embed/FyZNsBwfjqQ" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video__subtitle">Дриблинг</div>
+                            </div>
+                            <div class="video__feature">
+                                <iframe class="video__video" src="https://www.youtube.com/embed/Sgx-pvioXrE" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video__subtitle">Передний удар</div>
+                            </div>
+                            <div class="video__feature">
+                                <iframe class="video__video" src="https://www.youtube.com/embed/j0PC3GbGRm0" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video__subtitle">Обратный удар</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
+                CONTENT 3
+            -->
+
+            <div class="content content_white" id="content3">
+                <div class="container content__container">
+                    <div class="content__inner content__inner_white">
+                        <div class="content__picture">
+                            <img src="assets/img/img2.jpg" alt="" class="content__img">
+                        </div>
+                        <img src="assets/img/player4.png" alt="" class="content__player content__player_white">
+                        <div class="content__name content__name_white">Field</div>
+                        <a href="#" onclick="slowScroll('#content4')" class="content__num content__num_white">03.</a>
+                        <div class="content__content content__content_white">
+                            <div class="content__title content__title_white">Поле</div>
+                            <div class="content__text content__text_white">Игровое поле имеет прямоугольную форму: длина – 
+                                91.40 м, ширина – 55 м. Разметка боковых линий проводится по длине периметра поля; разметка 
+                                лицевых линий – по ширине периметра поля ...</div>
+                            <a href="#" class="content__btn content__btn_white" id="contentBtn3">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
+                CONTENT 4
+            -->
+
+            <div class="content content_grey" id="content4">
+                <div class="container content__container">
+                    <div class="content__inner content__inner_grey">
+                        <div class="content__content content__content_grey">
+                            <div class="content__title content__title_grey">Инвентарь</div>
+                            <div class="content__text content__text_grey">Полевые игроки каждой из команд в хоккее 
+                                на траве должны быть одеты в одинаковую форму. Майка вратаря должна отличаться от 
+                                маек остальной команды. Игроками разрешается надевать защитные перчатки, щитки 
+                                и пластинки для защиты зубов ...</div>
+                            <a href="#" class="content__btn content__btn_grey" id="contentBtn4">Узнать больше</a>
+                        </div>
+                        <div class="content__picture">
+                            <img src="assets/img/img3.jpg" alt="" class="content__img">
+                        </div>
+                        <img src="assets/img/player3.png" alt="" class="content__player content__player_grey">
+                        <div class="content__name content__name_grey content__name_equipment">Equipment</div>
+                        <a href="#" onclick="slowScroll('#footer')" class="content__num content__num_grey">04.</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
+                FOOTER
+            -->
+
+            <div class="footer" id="footer">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__copyright">© 2021 Field hockey</div>
+                        <a href="#" onclick="slowScroll('#header')"><img src="assets/img/logo.png" class="footer__logo"></a>
+                        <div class="footer__author"><span class="footer__by">Written by </span><span class="footer__name">Malovanyi Yehor</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="stop"></div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!-- SCROLL -->
+
+    <script type="text/javascript">
+        function slowScroll(id) {
+            var offset = 0;
+            $('html, body').animate({
+                scrollTop: $(id).offset().top - offset
+            }, 1000);
+            return false;
+        }
+
+        function slowNavScroll(id) {
+            setTimeout(function(){
+                var offset = 0;
+                $('html, body').animate({
+                    scrollTop: $(id).offset().top - offset
+                }, 1000);
+                return false;
+            }, 400);
+        }
+     </script>
+
+</body>
+</html>
